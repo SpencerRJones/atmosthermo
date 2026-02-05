@@ -4,24 +4,24 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "atmosthermo"
-version = "0.1.0"
+version = "0.1.1"
 description = "Atmospheric thermodynamics utilities"
 readme = "README.md"
 authors = [
-    { name = "Spencer" }
+    { name = "Spencer R. Jones" }
 ]
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 requires-python = ">=3.9"
-
-[project.urls]
-Homepage = "https://github.com/SpencerRJones/atmosthermo"
-Repository = "https://github.com/SpencerRJones/atmosthermo"
-Issues = "https://github.com/SpencerRJones/atmosthermo/issues"
 
 dependencies = [
     "numpy",
     "scipy",
 ]
+
+[project.urls]
+Homepage = "https://github.com/SpencerRJones/atmosthermo"
+Repository = "https://github.com/SpencerRJones/atmosthermo"
+Issues = "https://github.com/SpencerRJones/atmosthermo/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
